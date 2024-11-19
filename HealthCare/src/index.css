@@ -1,0 +1,63 @@
+/* main section */
+.mainContainer{
+  display: flex;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.imgsec img{
+  height: 100vh;
+  width: 51vw;
+}
+/* form section */
+.formSec{
+  background: rgb(237 247 250);
+  padding: 50px;
+  width: 100vw;
+}
+.selectControl{
+  appearance: auto !important;
+}
+.heading{
+  font-family:"sansita" ;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+label{
+  font-family: "Merriweather Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.required{
+  color: rgb(241, 26, 26);
+}
+
+/* submit btn */
+.submit{
+  border-radius: 20px !important;
+  width: 135px;
+  margin-top: 30px;
+  background: #14527c !important;
+}
+
+/* code for tab */
+@media(max-width:992px){
+
+}
+/* code for mobile */
+
+@media(max-width:768px){
+  .mainContainer{
+    flex-direction: column;
+  }
+ 
+  .imgsec img{
+    width: 100vw;
+    height: 35vh;
+  }
+  .formSec{
+    height: auto;
+  }
+}
